@@ -1,3 +1,3 @@
 all:
-	gcc -o prog.exe main.c arbre.c
-	./prog.exe
+	gcc -o src/prog.exe src/main.c src/arbre.c src/minimax.c  -I include -L lib -lmingw32 -lSDL2main -lSDL2
+
